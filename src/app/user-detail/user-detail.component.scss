@@ -1,0 +1,39 @@
+.card-header {
+    min-height: 250px;
+    background-color: #7b1fa2;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-info-container {
+    display: flex;
+    padding: 16px;
+}
+
+.profile-picture {
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin-right: 16px;
+}
+
+.card-header-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h2 {
+        margin-bottom: 0;
+    }
+}
+
+.mat-mdc-card-header {
+    padding-top: 12px !important;
+}
+
+.vert-icon {
+    position: absolute;
+    right: 4px;
+    top: 4px;
+}
